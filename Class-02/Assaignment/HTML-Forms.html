@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+         <h2>HTML Forms</h2>
+         <!-- //  form  -->
+         <form>
+            <!-- // box  -->
+            <fieldset>
+                <!-- // name  -->
+                <legend style="color: red">User Registration</legend>
+                <label for="firstName">Your Name</label>
+                <!-- // span  -->
+            <span>:</span>
+            <input id="firstName" type="text" placeholder="Enter your name"/>
+            <br><br>
+            <!-- // Email  -->
+            <label for="Email">Your Email</label>
+            <span>:</span>
+            <input id="Email" type="email" placeholder="e.g target.com" required />
+            <br><br>
+            <!-- // number  -->
+            <label for="number">Your Phone</label>
+            <span>:</span>
+            <input id="number" type="number" placeholder="+88018468748421">
+            <br><br>
+            <!-- // password  -->
+            <label for="password">Password</label>
+            <span>:</span>
+            <input id="password" type="password">
+            <br><br>
+            <!-- // Dropdowon -->
+            <label for="country">Choose country</label>
+            <span>:</span>
+            <select id="country">
+                <option value="">--Select country</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+               
+            </select>
+            <br><br>
+            <!-- --Radio Gender-->
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="Gender" id="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Custom">
+            <label for="Custom">Custom</label>
+            <br><br>
+             <!-- --Date of Birth-->
+             <label for="birth">Date  Of Birth</label>
+             <br>
+             <input type="date" id="birth">
+             <br><br>
+             <!-- upload files -->
+             <label for="upload">Upload Image</label><br />
+             <input type="file" accept="image/*" multiple />
+             <br><br>
+
+             <!-- Comment -->
+
+             <label for="comment">Your Message</label><br>
+             <textarea id="comment" cols="10" rows="5" placeholder="Hi..."></textarea>
+             <br><br>
+             <!-- checkbox -->
+            <input type="checkbox" id="terms" required />
+            <label for="terms">Agree to terms & conditions</label>
+            <span style="color: red;">*</span>
+             
+
+            <br><br><br>
+            <!-- // submit button  -->
+           <input type="Submit"/>
+            <input type="reset">
+            
+            </fieldset>
+         </form>
+         
+    </body>
+</html>

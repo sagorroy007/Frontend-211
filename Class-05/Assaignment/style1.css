@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* HEADER SECTION */
+.header{
+    /* width: 1280px; */
+    background-color: #FEFFF5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background:lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.header h1{
+    color: #0A8080;
+    text-align: center;
+    font-size: 48px;
+}
+
+.hp{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mydiv{
+    width: 150px;
+    height: 43px;
+    border-radius: 10px;
+    background: #0A8080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    
+}
+
+.join{
+    color: #FFF;
+    font-size: 18px;
+    display: flex;
+}
+.body{
+    width: 601px;
+    height: 328px;
+}
+
+h2{
+    color: #0A8080;
+    text-align: center;
+    font-size: 36px;
+}
+
+.div{
+    width: 942px;
+    height: 239px;
+    border-radius: 10px;
+    background: #FEFFF5;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.div1 h3{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+}
+
+.div1 p{
+    width: 791px;
+    color: #000;
+    font-size: 16px;
+}
+
+.div1 a{
+    width: 150px;
+    height: 43px;
+    border-radius: 10px;
+    background: #0A8080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
+    color: #FFF;
+    font-size: 18px;
+}

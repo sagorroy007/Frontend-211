@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+/* Global Style star */
+
+:root{
+    --primary-color: #0A8270;
+    --bg-color: #f6f3eb;
+    --heading-color: #314d4a;
+    --text-color: #646d6c;
+    --white-color: #ffffff;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Global Style End */
+
+/* Header Style Start */
+
+header{
+    background-color: var(--bg-color);
+    padding: 3rem 0;
+}
+.header-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo h2{
+    font-size: 2.8rem;
+    color: var(--heading-color);
+}
+
+nav ul{
+    display: flex;
+    gap: 4rem;
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+/* Header Style Start */
+
+/* Hero Section Style Start */
+.hero{
+    padding: 6rem 0;
+    background-color: var(--bg-color);
+}
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+}
+/* Hero Section Style End */
+
