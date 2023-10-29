@@ -1,0 +1,607 @@
+@media (max-width: 720px) {
+    
+    /* Global Area Style Start */
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    
+    a{
+        font-size: 11px;
+       
+    }
+    
+    /* Global Area Style End */
+
+    /* Header Area Style Start */
+    .header-area{
+        padding: 1.5rem;
+    }
+    .header-flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    .menu-item ul{
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .btn-primary{
+        background-color: var(--primary-color);
+        padding: 1rem 2rem;
+        border-radius: .8rem;
+    }
+
+    /* Header Area Style End */
+
+    /* Hero Area Style Start */
+    .hero-section{
+        padding: 3rem 0;
+    }
+    .hero-flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    .hero-content a{
+        margin-left: 12rem;
+    }
+
+
+    /* Hero Area Style End */
+
+
+    /* About Area Style Start */
+
+    .about-area{
+        padding: 3.5rem 0 0 0;
+    }
+    .about-content h2{
+        font-size: 35px;
+    }
+    .about-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .about-area-right{
+        text-align: center;
+    }
+    .btn1{
+        margin-left: 6rem;
+    }
+    .about_content h2{
+        font-size: 32px;
+        margin:  0 0 15rem 5rem;
+    }
+    .right-picture{
+        width: 233px;
+        height: 105px;
+        flex-shrink: 0;
+        bottom: 60rem;
+        left: 30rem;
+    }
+
+    /* About Area Style End */
+
+    /* Portfolio Area Style Start */
+    .portfolio-area{
+        padding: 4rem 0 0 0;
+    }
+  
+    .portfolio-content h2{
+        font-size: 35px;
+    }
+    .portfolio-content p{
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+
+    .portfolio-grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+    
+    .images img{
+        width: 270px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #F8FFE3;
+    }
+
+    .grid-all{
+        position: relative;
+        margin-bottom: 5rem;
+    }
+
+    .lays1-potato{
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -2.5rem;
+        left: 2.1rem;
+    }
+    .lays2-potato{
+        width: 156.75px;
+        height: 100px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -2.5rem;
+        left: 2.8rem;
+    }
+    .lays3-potato{
+        width: 164.848px;
+        height: 200px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -2.1rem;
+        left: 2.5rem;
+    }
+    .lays4-potato{
+        width: 140.575px;
+        height: 120px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -1.2rem;
+        left: 3.7rem;
+    }
+    .lays5-potato{
+        width: 210.08px;
+        height: 100px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -2.5rem;
+        left: 1.8rem;
+    }
+    .lays6-potato{
+        width: 145.978px;
+        height: 150px;
+        flex-shrink: 0;
+        position: absolute;
+        top: -2.5rem;
+        left: 3.8rem;
+    }
+    .cart{
+        width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        top: 11.5rem;
+        left: 14.5rem;
+    }
+
+    
+    /* Portfolio Area Style End */
+
+    /* popular Area Style Start */
+    .popular-area{
+        padding: .5rem 0 4rem 0;
+    }
+
+    .popular-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+    .popular-botom{
+        margin: 2rem 0 0 6rem;
+    }
+    .popular-heading h3, 
+    .maxp{
+        margin: 2rem 0 0 6rem;
+    }
+
+    .doted{
+        text-align: center;
+        margin-top: 10rem;
+    }
+    
+    /* popular Area Style End */
+
+    /* Testimonial Area Style Start */
+    .testimonal-area{
+        padding: 5rem 0 3.8rem 0;
+    }
+    .testimonal-flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        align-items: center;
+    }
+
+    .testimonal-left-area p{
+        font-size: 18px;
+        margin: 1.5rem 0 1.4rem 0;
+    }
+    .underline{
+        width: 500px;
+    }
+    .botom-text p{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .botom-text h3{
+        font-size: 18px;
+    }
+    /* Testimonial Area Style End */
+
+    /* Footer Area Style Start */
+
+    .footer-flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+    }
+    .footer-menu ul{
+        gap: 1rem;
+    }
+    .footer-left-area{
+        order: 2;
+    }
+    .footer-right-area{
+        order: 1;
+    }
+    .footer-right-area img{
+        width: 470px;
+        height: 384px;
+    }
+    /* Footer Area Style End */
+}
+
+@media (max-width: 576px) {
+    .right-picture{
+        width: 150px;
+        height: 105px;
+        flex-shrink: 0;
+        bottom: 58rem;
+        left: 26rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-area{
+        padding: 1rem 0;
+    }
+    .menu-bar{
+        display: inline-block;
+    }
+    .menu-area,
+    .search-area,
+    .btn-area{
+        display: none;
+    }
+    .header-flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    /* Hero Area Style Start */
+    .hero-content{
+        order: 2;
+    }
+    .hero-picture{
+        order: 1;
+    }
+    .hero-bg img{
+        width: 378.799px;
+        height: 328.799px;
+        flex-shrink: 0;
+        border-radius: 258.799px;
+        border: 35px solid #34ADE8;
+    }
+    .hero-lays-pic img{
+        width: 265.480px;
+        height: 307.639px;
+        flex-shrink: 0;
+        box-shadow: 0px 44px 64px -40px rgba(28, 175, 219, 0.39);
+       
+    }
+    .hero-lays-pic{
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+    }
+    .bgimg1{
+        width: 50px;
+        height: 24px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 13rem;
+        left: 13.9rem;
+    }
+    .bgimg2{
+        width: 80px;
+        height: 51px;
+        transform: rotate(-10deg);
+        flex-shrink: 0;
+        position: absolute;
+        top: 3.5em;
+        left: 4.5rem;
+        
+    }
+    .bgimg3{
+        width: 100.829px;
+        height: 108.14px;
+        transform: rotate(15deg);
+        flex-shrink: 0;
+        filter: blur(0.25px);
+        position: absolute;
+        top: 1.5rem;
+        left: 16rem;
+    }
+    .bgimg4{
+        width: 216.699px;
+        height: 108.592px;
+        transform: rotate(-2.179deg);
+        flex-shrink: 0;
+        opacity: 0.97;
+        filter: blur(0.5px);
+        position: absolute;
+        top: 8rem;
+        left: 2rem;
+    }
+    .hero-content a{
+        margin-left: 0;
+    }
+
+    
+    /* Hero Area Style End */
+
+    /* About Area Style Start */
+    
+    .about-area-left{
+        order: 1;
+    }
+    .about-area-right{
+        order: 2;
+    }
+
+   
+    .about-flex-container{
+        gap: 1.5rem;
+    }
+    .about-area-right{
+        text-align: start;
+    }
+    .btn1{
+        margin-left: 0;
+    }
+    .about-content h2{
+        font-size: 26px;
+        margin-bottom: 10rem;
+        margin-left: .5rem;
+    }
+    .right-picture{
+        width: 233px;
+        height: 105px;
+        flex-shrink: 0;
+        bottom: 60rem;
+        left: 30rem;
+    }
+    .about-bag img{
+        width: 320px;
+        height: 304px;
+        flex-shrink: 0;
+        color: #FFDDEE;
+        border-radius: 7px;
+        background: #FFE9F4;
+    }
+    .about-images img{
+        width: 200.589px;
+        height: 307.004px;
+        flex-shrink: 0;
+    }
+    .berger{
+        width: 178.816px;
+        height: 63.226px;
+        transform: rotate(-10.779deg);
+        flex-shrink: 0;
+    }
+
+    .about-images{
+        position: absolute;
+        top: -3.2rem;
+        left: 3.6rem;
+        z-index: 9999;
+    }
+    .berger{
+        position: absolute;
+        top: 4.8rem;
+        left: -3.5rem;
+    }
+    
+    
+    
+    
+    .right-picture{
+        width: 333px;
+        height: 145px;
+        flex-shrink: 0;
+        position: absolute;
+        bottom: 30rem;
+        left: 64rem;
+    }
+
+    /* About Area Style End */
+
+    /* Portfolio Area Style Start */
+
+    .portfolio-content h2{
+        font-size: 26px;
+    }
+    .portfolio-content p{
+        font-size: 11px;
+        margin-top: 1rem;
+    }
+
+    .portfolio-grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .3rem;
+        margin-left: 3rem;
+    }
+
+    /* Portfolio Area Style End */
+
+    /* Popular Area Style Start */
+    .popular-area-left{
+        order: 1;
+    }
+    .popular-area-left{
+        order: 2;
+    }
+    .popular-content h2{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .popular-top img{
+    
+        width: 330px;
+        height: 304px;
+        flex-shrink: 0;
+    }
+    .potatos img{
+    
+        width: 230px;
+        height: 320px;
+        flex-shrink: 0;
+    }
+
+    .potatos{
+        position: absolute;
+        top: -3.9rem;
+        left: 4.2rem;
+    }
+
+    .popular-image{
+        width: 340px;
+        height: 304px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #EAFFFC;
+    }
+
+    .positions img{
+        width: 240px;
+        height: 307.853px;
+        flex-shrink: 0;
+    }
+    .positions{
+        position: absolute;
+        top: -5rem;
+        left: 4rem;
+    }
+    .popular-botom{
+        margin: 2rem 0 0 0;
+    }
+    .popular-heading h3, 
+    .maxp{
+        margin: 2rem 0 0 0;
+    }
+    .doted{
+        margin-top: 2.5rem;
+    }
+    /* Popular Area Style End */
+
+    /* Testimonial Area Style Start */
+
+    .testimonal-area{
+        padding-top: 7rem;
+    }
+    .testimonal-left-area{
+        order: 2;
+    }
+    .testimonal-right-area{
+        order: 1;
+    }
+    .testimonial-bg img{
+        width: 370px;
+        height: 376px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: #FFD36A;
+    }
+    .testimonial-man-logo{
+
+        position: absolute;
+        top: -4rem;
+        left: 1rem;
+    }
+
+    .testimonal-left-area h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .testimonal-left-area p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .underline{
+        width: 300px;
+        height: 2px;
+    }
+    .testimonial-botom{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .botom-text p{
+        text-align: start;
+        margin-top: .5rem;
+    }
+    /* Testimonial Area Style End */
+
+    /* Contact Area Style Start */
+
+    .contact-area{
+        padding: 3rem 0 3rem 0;
+    }
+    .all-content-area h2{
+        font-size: 24px;
+    }
+    .all-content-area p{
+        font-size: 10px;
+    }
+    /* Contact Area Style End */
+
+    /* Footer Area Style End */
+    .footer-right-area img{
+        width: 370px;
+        height: 284px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #DDF6FF;
+    }
+    .footer-menu ul{
+        display: flex;
+        flex-direction: column;
+
+        gap: 1rem;
+    }
+    /* Footer Area Style End */
+}
